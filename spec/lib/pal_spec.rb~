@@ -1,0 +1,7 @@
+require "spec_helper"
+  describe Palindrome
+   it "is rerurn true" do
+    pal=Palindrome.new
+    pal.sentence_palindrome.should == 'true'
+   end
+  end 
